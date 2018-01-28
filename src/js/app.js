@@ -10,7 +10,7 @@ const client = new Mixer.Client(new Mixer.DefaultRequestRunner());
 // the required information to all of our requests after this call.
 client.use(new Mixer.OAuthProvider(client, {
     tokens: {
-        access: '1ZPY5VtKjIVOAUVD7fKSJCM3GQqUJd69RVBy98z3EI61vXIIxquW9Ba0l4uJyQp5',
+        access: 'f4d214efea81457623beb93ce18d941c4e997be681350dbd',
         expires: Date.now() + (365 * 24 * 60 * 60 * 1000)
     },
 }));

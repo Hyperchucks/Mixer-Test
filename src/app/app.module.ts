@@ -3,12 +3,14 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { OauthserverComponent } from './oauthserver/oauthserver.component';
 
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    OauthserverComponent
   ],
   imports: [
     BrowserModule
